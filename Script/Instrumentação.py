@@ -1,12 +1,5 @@
 #calculadora de range instrumentação
 
-#quando tem o mA e quer saber a temperatura
-
-#quando tem a temperatura e quer saber o sinal
-def cálculo_de_sinal(y_max, y_min, x_max, x_min, x):
-    cálculo = (((x-x_min)/(x_max-x_min))*(y_max-y_min))+y_min
-    print('%.3f' %cálculo)
-
 def cálculo_de_unidade(y_max, y_min, y, x_max, x_min):
     cálculo = (((y-y_min)/(y_max-y_min))*(x_max-x_min))+x_min
     print('%.3f' %cálculo)
